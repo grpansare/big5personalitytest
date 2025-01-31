@@ -29,6 +29,8 @@ Authentication: JWT / Google OAuth (if required)
 Styling: Tailwind CSS or Material-UI
 
 Deployment
+This project is deployed on netlify and can be accessed via the following link:
+https://big-5-personality-test.netlify.app/
 
 
 
