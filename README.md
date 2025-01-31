@@ -28,5 +28,7 @@ Authentication: JWT / Google OAuth (if required)
 
 Styling: Tailwind CSS or Material-UI
 
+Deployment
+
 
 
