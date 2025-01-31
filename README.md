@@ -18,7 +18,7 @@ This project is a web-based Big Five Personality Test that helps users assess th
 
 🛠️ Tech Stack
 
-Frontend: React.js (with TypeScript)
+Frontend: React.js 
 
 Backend: Node.js + Express.js
 
