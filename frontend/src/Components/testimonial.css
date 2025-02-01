@@ -1,0 +1,31 @@
+/* Add this to your CSS file */
+.testimonial-carousel {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .testimonial-slide {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-icon {
+    text-align: center;
+  }
+  
+  .testimonial-author {
+    margin-top: 20px;
+  }
+  
+  .testimonial-author h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .testimonial-author p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  

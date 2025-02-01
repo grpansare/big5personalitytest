@@ -1,0 +1,9 @@
+.result-table{
+    max-width: 50%;
+}
+
+@media (max-width:450px){
+    .result-table{
+        max-width: 100%;
+    }
+}

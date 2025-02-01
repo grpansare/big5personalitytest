@@ -1,0 +1,22 @@
+.relative {
+  height: 60px;
+}
+.header{
+  padding: 0 0; 
+}
+
+@media (max-width: 576px) {
+  .brand-text {
+    font-size: 14px; /* Smaller text size on small screens */
+    display: block; /* Ensure the text moves below the icon if needed */
+    text-align: center;
+  }
+  .header{
+    padding: 10px 0; 
+  }
+
+  .fa-brain {
+    margin: 0 auto; /* Center icon for small screens */
+    display: block;
+  }
+}

@@ -1,0 +1,292 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea;
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.login-content {
+  display: flex;
+  flex-direction: row;
+  width: 70%; 
+  max-width: 1200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.image-section {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 0px;
+}
+
+.welcome-image {
+  width: 90%;
+  height: 90%; 
+  object-fit: cover;
+  object-position: center;
+}
+
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(47, 122, 197);
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+  max-width: 450px; 
+}
+
+.input-box {
+  width: 100%;
+  padding: 15px 40px 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.login-button {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  color: black;
+  background-color: transparent;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  border-color: #01959a;
+}
+
+.button-icon {
+  font-size: 1.2rem;
+}
+
+.login-links {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.forgot-password,
+.register-link {
+  color: #01959a;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.forgot-password:hover,
+.register-link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 1024px) {
+  .login-content {
+    flex-direction: column;
+    width: 100%; 
+  }
+  .login-container{
+    padding:0;
+  }
+
+  .image-section {
+    height: 40vh; 
+
+    
+  }
+
+  .welcome-image {
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .form-section {
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .input-box {
+    font-size: 0.9rem;
+  }
+
+  .login-button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-section {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .input-box {
+    font-size: 0.85rem;
+    padding: 8px 35px 8px 10px;
+  }
+  .image-section {
+    height: 20vh; 
+ 
+    
+  }
+  
+  .welcome-image {
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .login-button {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .input-box {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+  .image-section {
+    height: 10vh; 
+
+  
+    
+  }
+  
+  .welcome-image {
+    width: 100%;
+    height: 880px;
+    object-fit: cover;
+    object-position: center;
+   
+  }
+
+  .login-button {
+    font-size: 0.7rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-image {
+    height: 20%; /* Reduce height for medium screens */
+  }
+  .image-section {
+    height: 20vh; 
+    /* border: 1px solid black; */
+    
+  }
+  
+  .welcome-image {
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-image {
+    width: 80%; /* Reduce width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto; /* Center the image */
+    border-radius: 50%;
+  }
+
+  .image-section {
+    height: auto; /* Allow height to adjust dynamically */
+    padding: 10px; /* Add padding for better layout */
+  }
+  .image-section {
+    height: auto; 
+    /* border: 1px solid black; */
+    
+  }
+}
+

@@ -1,0 +1,16 @@
+.hero-image{ 
+   height: 460px;
+   width: 500px;
+      border-radius: 50%;
+     }
+
+@media screen and (max-width: 768px) {
+    .hero-image {
+      height: 300px;
+      width: 300px;
+        border-radius: 50%;
+
+    }
+  }
+
+  
