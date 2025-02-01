@@ -25,7 +25,7 @@ import userRoutes from './routes/user.route.js';
  
  // Middleware
  app.use(cors({
-     origin: "https://big-5-personality-test.netlify.app",
+     origin: "https://big5personalitytest.onrender.com",
      methods: "GET,POST,PUT,DELETE",
      credentials: true,
  }));
