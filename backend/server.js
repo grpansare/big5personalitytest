@@ -73,7 +73,7 @@ app.use(
  app.use('/result',resultroutes)
  
  // Start server
- app.listen(PORT, () => {
-     console.log(`Server started on port ${PORT}`);
- });
+ app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server started on port ${PORT}`);
+});
  

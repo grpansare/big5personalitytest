@@ -8,4 +8,8 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Default build directory
   },
+  server: {
+    host: '0.0.0.0', // Allow external access
+    port: process.env.PORT || 5173, // Use Render's port
+  }
 })
