@@ -1,10 +1,9 @@
-##📌 Project Overview
+## Project Overview
 
 This project is a web-based Big Five Personality Test that helps users assess their personality traits based on the Five-Factor Model (Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism). Users answer a set of questions, and the system evaluates their personality based on their responses.
-## My Heading
----
 
-🚀 Features
+
+## Features
 
 📋 Interactive Questionnaire – Users can answer multiple-choice questions.
 
@@ -18,7 +17,7 @@ This project is a web-based Big Five Personality Test that helps users assess th
 
 🎨 Responsive Design – Works across different devices and screen sizes.
 
-🛠️ Tech Stack
+ ## Tech Stack
 
 Frontend: React.js 
 
